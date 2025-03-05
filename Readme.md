@@ -1,11 +1,20 @@
 
 # Project Name
 Project – Medical RAG System
-This report presents the design, development, and optimization of a Retrieval- Augmented Generation (RAG) system aimed at efficiently processing large-scale biomedical datasets for multiple-choice question (MCQ) context retrieval. The pri- mary objective is to extract accurate, relevant, and detailed contextual information for each question and its options, addressing key challenges such as the vast dataset size, computational limitations, and time complexity.
-The system employs a multi-faceted approach, incorporating advanced techniques such as keyword filtering, embedding generation, chunking, similarity search, and large language model (LLM) integration. These methods are iteratively refined to enhance scalability, accuracy, and efficiency. The analysis not only highlights the strengths and limitations of the methodologies but also evaluates their performance in detail.
-This document offers a comprehensive evaluation of the implemented approaches, their outcomes, and actionable recommendations for refining retrieval processes to support large-scale, domain-specific applications effectively.
+This report presents the design, development, and optimization of a Retrieval- Augmented Generation (RAG) system aimed at efficiently processing large-scale biomedical 
+datasets for multiple-choice question (MCQ) context retrieval. The pri- mary objective is to extract accurate, relevant, and detailed contextual information for each question and its options, addressing key challenges such as the vast dataset size, computational limitations, and time complexity.
+The system employs a multi-faceted approach, incorporating advanced techniques such as keyword filtering, embedding generation, chunking,
+similarity search, and large language model (LLM) integration. These methods are iteratively refined to enhance scalability, accuracy, and efficiency.
+The analysis not only highlights the strengths and limitations of the methodologies but also evaluates their performance in detail.
+This document offers a comprehensive evaluation of the implemented approaches, their outcomes, and actionable recommendations for refining retrieval processes to support large-scale,
+domain-specific applications effectively.
 A brief description of your project. Explain what it does, its purpose, and its key features.
 
+## 📊 Datasets
+The following publicly available datasets were used for training and evaluation:
+1. [**MedQA-USMLE Dataset**](https://huggingface.co/datasets/GBaker/MedQA-USMLE-4-options) : Multiple-choice questions for medical reasoning and knowledge.
+2. [**Medical Meadow Dataset**](https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc) : Contextual biomedical data for retrieval tasks.
+3. [**PubMedQA Dataset**](https://pubmed.ncbi.nlm.nih.gov/) : Clinical questions and answers sourced from PubMed articles.
 
 
 ## Installation
@@ -21,7 +30,6 @@ A brief description of your project. Explain what it does, its purpose, and its 
     # Change the path names to run it in the files.
     python filename.py
 
-## References :
-    https://chatgpt.com
+
 
 
