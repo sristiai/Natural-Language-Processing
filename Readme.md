@@ -1,9 +1,4 @@
 
-# Project Name
-Here is a README file for your project:  
-
----
-
 # **Medical RAG System**  
 **Author:** Sristi Bhadani  
 **Supervisor:** Prof. Dr. Patrick Levi  
